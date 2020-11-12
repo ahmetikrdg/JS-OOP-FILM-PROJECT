@@ -31,7 +31,7 @@ class Storage{
      }
      
      static clearAllFilmsFromStorage(){
-         localStorage.removeItem("films");
+         localStorage.removeItem("films");//films keyini kaldırıyorum
      }
 }
 
